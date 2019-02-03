@@ -1,0 +1,19 @@
+- Massive 
+- Free 
+- Open Source 
+- Javascript Library 
+
+
+- it is not a programming language in its own right!
+- Makes working with the DOM easier 
+- Makes even handling easier
+- Makes AJAX really simple 
+- Plus loads mores 
+
+-Image slider plugins 
+-Form enhancement plugins 
+-Plus tonnes mores
+
+- Chaining 
+-Code is less verbose 
+-Things get done quicker
