@@ -17,3 +17,19 @@
 - Chaining 
 -Code is less verbose 
 -Things get done quicker
+
+
+version4 
+
+grabbing elements in the DOM 
+$("page-title")
+
+// saving the element to variable 
+var heading = $("page-title")
+// chain linking element and css 
+heading.css({position: "relative"})
+//using animations 
+heading.animate({left: 100});
+//indexing the animations
+heading[0]
+heading[0].animate({left: 20});
