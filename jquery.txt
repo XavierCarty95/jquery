@@ -33,3 +33,8 @@ heading.animate({left: 100});
 //indexing the animations
 heading[0]
 heading[0].animate({left: 20});
+
+Pretty much every jQuery statemnt starts with a $ sign (or th jQuery keyword) 
+
+document.getElementById("main-heading");
+$("#main-heading");
