@@ -1,11 +1,15 @@
-// // $('#contact-methods').next().css({border: "3px solid red"});
-// $("#social-nav").prev().css({border: "3px solid pink"});
-// $(".banner-title").parent().css({border: "3px solid pink"})
-// $("#social-nav").children().css({border: "3px solid green"})
+$("#contact-methods").css({border: "2px solid red"}).next().css({border: "2px solid green"}).closet("section").css({border: "2px solid blue"});
 
-// $("#contact").find(".facebook").css({border: " 3px solid green "});
 
-$("#social-nav").closest(".wrapper").css({border:"3px solid orange"})
+
+// // // $('#contact-methods').next().css({border: "3px solid red"});
+// // $("#social-nav").prev().css({border: "3px solid pink"});
+// // $(".banner-title").parent().css({border: "3px solid pink"})
+// // $("#social-nav").children().css({border: "3px solid green"})
+
+// // $("#contact").find(".facebook").css({border: " 3px solid green "});
+
+// $("#social-nav").closest(".wrapper").css({border:"3px solid orange"})
 
 
 
