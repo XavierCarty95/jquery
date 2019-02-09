@@ -1,6 +1,25 @@
-$(".button").empty();
-$("#point-of-sale").empty()
-$("#contact img").remove()
+$("#contact img").removeAttr("alt");
+$("#contact img").attr("alt" , "location");
+console.log($("#contact img").attr("alt"));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// $(".button").empty();
+// $("#point-of-sale").empty()
+// $("#contact img").remove()
 
 
 
