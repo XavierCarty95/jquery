@@ -1,10 +1,36 @@
+var wrapper ="<div class = 'wrapper'>"
+var button = $(".button");
+var wrapped = true
 
-var tweet = "<div style='margin: 20px 0; padding: 10px; background: #eee'> The big fight live: Rams vs Cheese!</div>"
+button[0].onclick = function(){
+    if(wrapped){
+        $("section").unwrap();
+        wrapped = false;
+        button.text("Wrap");
+    } else { 
+        $("section").wrapAll(wrapper);
+        wrapped = true;
+        button.text("UnWrap");
+        
+    }
+}
 
-// $("#tweets div p").before(tweet)
-// $("#tweets div").append(tweet)
-// $("#tweets div p").after(tweet)
-// $("#tweets div p").html(tweet)
+
+
+
+
+
+
+// $("section").wrap("<div>")
+// $("section").unwrap()
+// $("section").wrapAll("<div>")
+
+// var tweet = "<div style='margin: 20px 0; padding: 10px; background: #eee'> The big fight live: Rams vs Cheese!</div>"
+
+// // $("#tweets div p").before(tweet)
+// // $("#tweets div").append(tweet)
+// // $("#tweets div p").after(tweet)
+// // $("#tweets div p").html(tweet)
 
 
 
