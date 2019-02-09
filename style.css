@@ -85,7 +85,7 @@ hr {
     display:block;
     height:1px;
     border:0;   
-    
+    border-top:1px solid #cccccc;
     margin:1em 0;
     padding:0;
 }
@@ -117,7 +117,7 @@ header:after{
     height: 70px;
     width: 280px;
     float: left;
-   
+    text-indent: -10000px;
 }
 
 header nav{
@@ -132,7 +132,7 @@ header nav a{
     font-family: arial;
 }
 
-header > nav > h2{
+header nav h2{
     height: 0;
     text-indent: -10000px;
 }
@@ -210,7 +210,7 @@ section:after{
     clear: both;
 }
 
-#points-of-sale ul{
+section#points-of-sale ul{
     list-style-type: none;
 }
 
@@ -228,7 +228,7 @@ section:after{
     margin: 0 2%;
 }
 
-#points-of-sale > li > h3{
+#points-of-sale li h3{
     text-align: center;
     color: #888;
     font-size: 24px;
@@ -253,14 +253,15 @@ section:after{
 #clients h2, #contact h2{
     background: green;
     color: #fff;
-
+    padding: 8px;
     text-align: center;
     width: 250px;
     text-transform: uppercase;
     position: relative;
     top: -45px;
     margin: 0 auto;
-  
+    border-left: 16px solid #fff;
+    border-right: 16px solid #fff;
 }
 
 #clients img{
@@ -277,7 +278,7 @@ section:after{
     line-height: 1.6em;
     color: #888;
     padding-top: 50px;
-    background: url(images/quote.png) no-repeat top left;
+    background: url(quote.png) no-repeat top left;
 }
 
 #contact-methods{
@@ -328,8 +329,8 @@ section:after{
     float: left;
     width: 40px;
     height: 30px;
-    
-   
+    background: url(logo-sprite.png) no-repeat;
+    text-indent: -10000px;
 }
 
 #social-nav li:nth-child(2){
@@ -350,6 +351,4 @@ section:after{
     height: 100%;
 }
 
-.open {
-    height: auto !important;
-}
+

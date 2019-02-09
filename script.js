@@ -1,11 +1,24 @@
-<<<<<<< HEAD
-$("#social-nav").css({
-    "top": "-400px",
-    "left":"1500px",
-    "opacity": "0.5",
-    "border-top": "4px solid red"
-});
-=======
+
+// var myLis = $("#points-of-sale li");
+
+// myLis.on("click", function(){
+    
+//     $(this).css({"background" : "pink"})
+    
+//     myLis.off("click")
+    
+    
+// })
+
+
+
+// $("#social-nav").css({
+//     "top": "-400px",
+//     "left":"1500px",
+//     "opacity": "0.5",
+//     "border-top": "4px solid red"
+// });
+
 
 
 
@@ -37,7 +50,6 @@ $("#social-nav").css({
 
 
 
->>>>>>> version14
 
 // $("#social-nav").css({
 //     "top": "-400px",
