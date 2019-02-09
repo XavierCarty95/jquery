@@ -1,17 +1,9 @@
-// var myObject = {
-//     "height" : "40",
-//     "left" : "100",
-//     "opacity" :"0.5",
-//     "border-top" : "4px solid red"
-    
-// }
+var button = $("#lead-banner a");
 
-$("#social-nav").css({
-    "top": "-400px",
-    "left":"1500px",
-    "opacity": "0.5",
-    "border-top": "4px solid red"
-});
+button[0].onclick = function(){
+    $("#points-of-sale").toggleClass("open");
+    return false;
+}
 
 
 
@@ -20,27 +12,36 @@ $("#social-nav").css({
 
 
 
+// $("header .wrapper").removeClass("wrapper");
+// $("header > div").addClass("wrapper");
 
 
 
 
 
 
+// $("#social-nav").css({
+//     "top": "-400px",
+//     "left":"1500px",
+//     "opacity": "0.5",
+//     "border-top": "4px solid red"
+// })
 
 
 
 
-
-
-
-
-
-// $("#contact img").removeAttr("alt");
-// $("#contact img").attr("alt" , "location");
-// console.log($("#contact img").attr("alt")
 // $(".button").empty();
 // $("#point-of-sale").empty()
 // $("#contact img").remove()
+
+
+
+
+
+
+
+
+
 // var wrapper ="<div class = 'wrapper'>"
 // var button = $(".button");
 // var wrapped = true
