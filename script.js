@@ -1,3 +1,13 @@
+// $("#lead-banner").dblclick(function(){
+//     alert("you click me");
+    
+// })
+
+
+
+
+
+
 
 // var myLis = $("#points-of-sale li");
 
