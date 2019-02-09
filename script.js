@@ -1,13 +1,34 @@
-$(function(){
-    
-    
-    
+$(document).ready(function(){
+    $("*").on("click",function(e){
+        
+        console.log(e.target)
+        console.log("The event type is: " + e.type)
+        console.log("x co-ordinate of the event " + e.pageX);
+        console.log("x co-ordinate of the event " + e.pageY)
+        e.stopPropagation()
+    })
 })
 
-$(window).load(function(){
+
+
+
+
+
+
+
+
+
+
+// $(function(){
     
     
-})
+    
+// })
+
+// $(window).load(function(){
+    
+    
+// })
 
 
 // $("#lead-banner").dblclick(function(){
