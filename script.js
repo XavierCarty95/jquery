@@ -1,19 +1,31 @@
-var wrapper ="<div class = 'wrapper'>"
-var button = $(".button");
-var wrapped = true
+$(".button").empty();
+$("#point-of-sale").empty()
+$("#contact img").remove()
 
-button[0].onclick = function(){
-    if(wrapped){
-        $("section").unwrap();
-        wrapped = false;
-        button.text("Wrap");
-    } else { 
-        $("section").wrapAll(wrapper);
-        wrapped = true;
-        button.text("UnWrap");
+
+
+
+
+
+
+
+
+// var wrapper ="<div class = 'wrapper'>"
+// var button = $(".button");
+// var wrapped = true
+
+// button[0].onclick = function(){
+//     if(wrapped){
+//         $("section").unwrap();
+//         wrapped = false;
+//         button.text("Wrap");
+//     } else { 
+//         $("section").wrapAll(wrapper);
+//         wrapped = true;
+//         button.text("UnWrap");
         
-    }
-}
+//     }
+// }
 
 
 
