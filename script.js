@@ -1,6 +1,17 @@
-$("#contact img").removeAttr("alt");
-$("#contact img").attr("alt" , "location");
-console.log($("#contact img").attr("alt"));
+// var myObject = {
+//     "height" : "40",
+//     "left" : "100",
+//     "opacity" :"0.5",
+//     "border-top" : "4px solid red"
+    
+// }
+
+$("#social-nav").css({
+    "top": "-400px",
+    "left":"1500px",
+    "opacity": "0.5",
+    "border-top": "4px solid red"
+});
 
 
 
@@ -17,18 +28,19 @@ console.log($("#contact img").attr("alt"));
 
 
 
+
+
+
+
+
+
+
+// $("#contact img").removeAttr("alt");
+// $("#contact img").attr("alt" , "location");
+// console.log($("#contact img").attr("alt")
 // $(".button").empty();
 // $("#point-of-sale").empty()
 // $("#contact img").remove()
-
-
-
-
-
-
-
-
-
 // var wrapper ="<div class = 'wrapper'>"
 // var button = $(".button");
 // var wrapped = true
