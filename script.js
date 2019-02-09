@@ -1,13 +1,35 @@
 $(document).ready(function(){
-    $("*").on("click",function(e){
+    
+    function complete(){
+            alert("Animation complete")
+    }
+    
+    $("section > h2").on("click", function(){
         
-        console.log(e.target)
-        console.log("The event type is: " + e.type)
-        console.log("x co-ordinate of the event " + e.pageX);
-        console.log("x co-ordinate of the event " + e.pageY)
-        e.stopPropagation()
-    })
-})
+        $(this).animate({"width" : "500px", "height" : "100px"}, 1000, "linear", complete)
+        })
+        
+   
+});
+
+
+
+
+
+
+
+
+
+// $(document).ready(function(){
+//     $("*").on("click",function(e){
+        
+//         console.log(e.target)
+//         console.log("The event type is: " + e.type)
+//         console.log("x co-ordinate of the event " + e.pageX);
+//         console.log("x co-ordinate of the event " + e.pageY)
+//         e.stopPropagation()
+//     })
+// })
 
 
 
