@@ -1,3 +1,15 @@
+$(function(){
+    
+    
+    
+})
+
+$(window).load(function(){
+    
+    
+})
+
+
 // $("#lead-banner").dblclick(function(){
 //     alert("you click me");
     
