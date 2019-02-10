@@ -351,4 +351,16 @@ section#points-of-sale ul{
     height: 100%;
 }
 
-
+.slide-button-up,
+.slide-button-down{
+    clear: right;
+    margin-top: 20px;
+    padding: 10px;
+    background: #ccc;
+    border-radius: 4px;
+    border: 1px solid #aaa;
+    color: #333;
+    width: 148px;
+    text-align: center;
+    margin:10px;
+}

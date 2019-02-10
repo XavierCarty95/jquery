@@ -1,9 +1,40 @@
 $(document).ready(function(){
-   $("img[alt=map]").on("click" , function(){
-       $("section > h2").toggle(1000);
+   $(".slide-button-up").on("click", function(){
+      $("#lead-banner").slideToggle(1000, function(){
+         alert("animation complete")
+      })
+      
    });
    
-});
+})
+   
+//    $(".slide-button-down").on("click",function(){
+//       $("#lead-banner").slideDown(4000,function(){
+//          alert("animation complete")
+//       })
+//    })
+   
+// });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// $(document).ready(function(){
+//    $("img[alt=map]").on("click" , function(){
+//        $("section > h2").toggle(1000);
+//    });
+   
+// });
 
 
 
