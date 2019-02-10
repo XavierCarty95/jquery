@@ -1,12 +1,101 @@
-$(document).ready(function(){
-   $(".slide-button-up").on("click", function(){
-      $("#lead-banner").slideToggle(1000, function(){
-         alert("animation complete")
-      })
-      
-   });
+
+$(document).ready((function(){
+   
+  $(function() {
+    $(".rslides").responsiveSlides();
+ 
    
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// $(document).ready(function(){
+   
+//    var items = $("#points-of-sale li");
+   
+//    items.on("click" , function(){
+      
+//       $(this).find("p").slideToggle(500)
+      
+      
+//    })
+// })
+
+
+
+
+
+
+
+
+// $(document).ready(function(){
+   
+//    var allQuotes = $("blockquote");
+//    var currentQuotes = 0 
+   
+//     function changeQuote(){
+        
+//        $(allQuotes[currentQuotes]).fadeOut(200, function(){
+//           if(currentQuotes == allQuotes.length - 1){
+//           currentQuotes = 0
+           
+//           } else {
+//           currentQuotes++
+                
+//                 }
+   
+//       $(allQuotes[currentQuotes]).fadeIn(200)
+                     
+        
+//       });
+      
+//       var quoteTime =  setInterval(changeQuote, 3000)
+//     }
+
+              
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// $(document).ready(function(){
+//    $(".slide-button-up").on("click", function(){
+//       $("#lead-banner").slideToggle(1000, function(){
+//          alert("animation complete")
+//       })
+      
+//    });
+   
+// })
    
 //    $(".slide-button-down").on("click",function(){
 //       $("#lead-banner").slideDown(4000,function(){
